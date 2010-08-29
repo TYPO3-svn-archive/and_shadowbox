@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'and_shadowbox'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">shadowbox</label>
+			<label index="tx_andshadowbox_content">tx_andshadowbox_image</label>
+			<label index="tx_andshadowbox_content.title">title</label>
+			<label index="tx_andshadowbox_content.description">description</label>
+			<label index="tx_andshadowbox_content.content">content</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">Shadowbox</label>
+			<label index="tx_andshadowbox_content">tx_andshadowbox_image</label>
+			<label index="tx_andshadowbox_content.title">Titel</label>
+			<label index="tx_andshadowbox_content.description">Beschreibung</label>
+			<label index="tx_andshadowbox_content.content">Inhalt</label>
+		</languageKey>
+	</data>
+</T3locallang>

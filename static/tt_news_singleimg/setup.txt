@@ -1,0 +1,23 @@
+# tt_news display sinhgle-item, click enlarge with shadowbox
+plugin.tt_news.displaySingle {
+  imageWrapIfAny = <div class="single-images"><div>|</div></div>
+  imageCount = 10
+  
+  image.wrap = </div><div class="single-img">|                
+        image.file.width = 240c
+        image.file.height = 180c
+  image.imageLinkWrap >
+  image.imageLinkWrap = 1
+  image.imageLinkWrap {
+      
+    enable = 1
+    typolink.parameter.stdWrap.cObject = IMG_RESOURCE
+    typolink.parameter.stdWrap.cObject {
+                  file.import.data = TSFE:lastImageInfo|origFile
+                  file.maxW = 800 
+                }
+          typolink.ATagParams (
+      rel="shadowbox[tt_news];options={handleLgImages:'drag',counterType:'skip',continuous:true,overlayColor:'#000000',overlayOpacity:0.50,displaydesc:true};"
+    )
+  }
+}

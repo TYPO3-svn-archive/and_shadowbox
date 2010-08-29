@@ -1,0 +1,48 @@
+€nderungen Version 1.0.6
+
+- im Flexform kann der Dateipfad jetzt mittels Wizard eingetragen werden 
+(Dank an Sebastian Virus)
+
+- zwei neue static-templates
+
+	- click-enlarge fuer normale CEs (Bild und Text / Bild)
+	- click-enlarge fuer die Singleview der tt_news
+
+-----------------------------------------------------------------------
+
+Aenderungen Version 1.0.5
+
+- fuer Flash und FlashVideo Elemente kann jetzt ein Pfad fuer ein individuelles
+Thumbnail hinterlegt werden. Es wird das DAM Feld "Source / Original location"
+dafuer verwendet.
+
+-----------------------------------------------------------------------
+
+Aenderungen Version 1.0.4 - Danke an Hauke Hain
+
+- In der Flexform und im TypoScript ist einstellbar, wie viele
+Elemente angezeigt werden sollen (Statt zeige nur erstes, kann fest
+angegeben werden, wie viele maximal zu sehen sind)
+
+- Die Thumbnails enthalten jetzt XHTML-konform einen alt-Tag. Bei
+Thumbs von nicht DAM Elementen ist der halt leer, bei DAM-Elementen ist
+der Titel der Alt-Tag.
+
+- Thumbs die Ã¼ber die Klasse "hidden" gesetzt werden, werden jetzt gar
+nicht mehr generiert. Das spart in mehrfacher Hinsicht Performance.
+
+- Die JavaScript und CSS-Dateien werden nun via TypoScript eingebunden.
+Falls das statische Template nicht fuer alle Seiten gilt, muessen die
+CSS Dateien manuell hinzugefuegt werden:
+
+page.includeCSS {
+   tx_andshadowbox_pi1_shadowbox = typo3conf/ext/and_shadowbox/res/css/shadowbox.css
+   tx_andshadowbox_pi1_shadowbox.media = screen
+   tx_andshadowbox_pi1_andshadowbox = typo3conf/ext/and_shadowbox/res/css/andshadowbox.css
+   tx_andshadowbox_pi1_andshadowbox.media = screen
+}
+
+Das ganze hat den Vorteil, dass CSS und JavaScript Minifier diese mit
+verkleinern und vom User auch ueberschrieben werden koe¶nnen.
+
+----------------------------------------------------------------------

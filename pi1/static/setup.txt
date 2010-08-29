@@ -1,0 +1,75 @@
+page.includeCSS {
+    tx_andshadowbox_pi1_shadowbox = typo3conf/ext/and_shadowbox/res/css/shadowbox.css
+    tx_andshadowbox_pi1_shadowbox.media = screen
+    tx_andshadowbox_pi1_andshadowbox = typo3conf/ext/and_shadowbox/res/css/andshadowbox.css
+    tx_andshadowbox_pi1_andshadowbox.media = screen
+}
+
+plugin.tx_andshadowbox_pi1 {
+   options {         
+       # resize/none/drag
+       handleLgImages = drag
+       
+       # default/skip
+       counterType = 
+       
+       # false/true
+       continuous = 
+       
+       # wh,hw,sync
+       animSequence = 
+       
+       # false/true
+       showMovieControls = 
+       
+       # false/true
+       autoplayMovies = 
+       
+       # #000000
+       overlayColor = 
+       
+       # 0.80
+       overlayOpacity = 
+       
+       # 0.35
+       resizeDuration = 
+       
+       # 0.35
+       fadeDuration = 
+       
+       # false/true
+       displayCounter = 
+   }
+   navigation {
+       # typo3conf/ext/and_shadowbox/res/image/next.gif
+       next = 
+       # typo3conf/ext/and_shadowbox/res/image/prev.gif
+       prev = 
+       # typo3conf/ext/and_shadowbox/res/image/close.gif
+       close = 
+   }
+   thumb {
+       width = 120c
+       height = 90c
+   }
+   flash {
+       logo = EXT:and_shadowbox/res/image/flash_logo.jpg
+       width = 425
+       height = 355
+   }
+   css {
+       thumb.wrap = <span class="tx-andshadowbox-thumb">|</span>
+       text.wrap = <span class="tx-andshadowbox-text">|</span>
+       content.wrap = <span class="tx-andshadowbox-content">|</span>
+   }
+   dam {
+       fieldfortitle = title
+       fieldfordescription = description
+       strftime = %Y-%m-%d %H:%M:%S
+   }
+   # yui, prototype, jquery, dojo
+   javascript {
+       framework = yui
+       onlyadapter = 0
+   }
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_andshadowbox_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">#
+		  <label index="pi1_title">AND Shadowbox - Gallery</label>
+		  <label index="pi1_wiz_description">A gallery for DAM-elements, content and external urls.</label>
+<!-- Flexforms -->
+      <label index="flexform.basic.sheettitle">basic options</label>
+      <label index="flexform.basic.mode">mode</label>
+      <label index="flexform.basic.mode.0">directory</label>
+      <label index="flexform.basic.mode.1">DAM</label>
+      <label index="flexform.basic.mode.2">DAM categories</label>
+      <label index="flexform.basic.mode.3">content</label>
+      <label index="flexform.basic.mode.4">external url</label>
+      <label index="flexform.basic.itemdirectory">Directory</label>
+      <label index="flexform.basic.itemdam">DAM elements</label>
+      <label index="flexform.basic.itemdamcat">DAM categories</label>
+      <label index="flexform.basic.recursivedamcat">recursive</label>
+      <label index="flexform.basic.recursivedamcat.1">1</label>
+      <label index="flexform.basic.recursivedamcat.2">2</label>
+      <label index="flexform.basic.recursivedamcat.3">3</label>
+      <label index="flexform.basic.recursivedamcat.4">4</label>
+      <label index="flexform.basic.recursivedamcat.5">infinite</label>    
+      <label index="flexform.basic.itemcontent">content</label>
+      <label index="flexform.basic.thumb">thumbnails</label>
+      <label index="flexform.basic.thumbwidth">thumbnails width</label>
+      <label index="flexform.basic.thumbheight">thumbnails height</label>
+      <label index="flexform.basic.url">url (with http://)</label>
+      <label index="flexform.basic.linkvalue">link value</label>
+      <label index="flexform.basic.imagetitle">image value</label>
+      <label index="flexform.basic.width">shadowbox width</label>
+      <label index="flexform.basic.height">shadowbox height</label>
+      <label index="flexform.basic.gallery">gallery</label>
+      <label index="flexform.basic.description">description</label>
+      <label index="flexform.basic.onlyfirstshow">show only first element</label>
+      <label index="flexform.basic.showmax">The maximum number of elements to show</label>
+      
+      
+      
+		</languageKey>
+		<languageKey index="de" type="array">
+		  <label index="pi1_title">AND Shadowbox - Galerie</label>
+		  <label index="pi1_wiz_description">Galerie für DAM Inhalte, Content Elemente und externe URLs.</label>
+<!-- Flexforms -->
+      <label index="flexform.basic.sheettitle">Basis Einstellungen</label>
+      <label index="flexform.basic.mode">Mode</label>
+      <label index="flexform.basic.mode.0">Dateipfad</label>
+      <label index="flexform.basic.mode.1">DAM</label>
+      <label index="flexform.basic.mode.2">DAM Kategorien</label>
+      <label index="flexform.basic.mode.3">Inhalt</label>
+      <label index="flexform.basic.mode.4">Externe URL</label>
+      <label index="flexform.basic.itemdirectory">Dateipfad</label>
+      <label index="flexform.basic.itemdam">DAM Elemente</label>
+      <label index="flexform.basic.itemdamcat">DAM Kategorie</label>
+      <label index="flexform.basic.recursivedamcat">Rekursiv</label>
+      <label index="flexform.basic.recursivedamcat.1">1</label>
+      <label index="flexform.basic.recursivedamcat.2">2</label>
+      <label index="flexform.basic.recursivedamcat.3">3</label>
+      <label index="flexform.basic.recursivedamcat.4">4</label>
+      <label index="flexform.basic.recursivedamcat.5">unendlich</label>     
+      <label index="flexform.basic.itemcontent">Inhalts Elemente</label>
+      <label index="flexform.basic.thumb">Thumbnails</label>
+      <label index="flexform.basic.thumbwidth">Breite Thumbnails</label>
+      <label index="flexform.basic.thumbheight">Höhe Thumbnails</label>
+      <label index="flexform.basic.url">URL (jede in eine neue Zeile mit http://)</label>
+      <label index="flexform.basic.linkvalue">Link Bezeichnung (jede in eine neue Zeile)</label>
+      <label index="flexform.basic.imagetitle">Bild Titel (jede in eine neue Zeile)</label>
+      <label index="flexform.basic.width">Breite Shadowbox</label>
+      <label index="flexform.basic.height">Höhe Shadowbox</label>
+      <label index="flexform.basic.gallery">Galerie</label>
+      <label index="flexform.basic.description">Beschreibung</label>
+      <label index="flexform.basic.onlyfirstshow">zeige nur erstes Element</label>
+      <label index="flexform.basic.showmax">Die Anzahl der Elemente, die maximal gezeigt werden sollen</label>
+      
+	  </languageKey>
+  </data>
+</T3locallang>

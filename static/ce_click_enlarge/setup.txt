@@ -1,0 +1,20 @@
+#Removing the default "imageLinkWrap" TS code, and add new one to enable Shadowbox effect.
+tt_content.image.20.1 {
+  imageLinkWrap >
+  imageLinkWrap = 1
+  imageLinkWrap {
+
+    enable.field = image_zoom
+    enable.ifEmpty.typolink.returnLast = url
+
+    typolink {
+      parameter.cObject = IMG_RESOURCE
+      parameter.cObject.file.import.data = TSFE:lastImageInfo|origFile
+
+      ATagParams = rel="Shadowbox"
+      ATagParams.override = rel="Shadowbox[{field:uid}]"
+      ATagParams.insertData = 1
+      ATagParams.if.isTrue.field = image_zoom
+    }
+  }
+}

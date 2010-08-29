@@ -1,0 +1,29 @@
+.clearer {
+      clear:both;
+      font-size:0px;
+      line-height:0px;
+      height:0px;
+}
+.tx-andshadowbox-pi1 {
+	margin-bottom:1.5em;
+}
+#shadowbox_toolbar a img {
+      border:0;
+}
+.tx-andshadowbox-content {
+      padding:15px;
+      display:block;
+}
+.tx-andshadowbox-text {
+      display:block;     
+}
+.tx-andshadowbox-text a {
+      text-decoration:none;
+}
+.tx-andshadowbox-text span {
+      
+}
+.tx-andshadowbox-thumb a img{
+	border:0;
+	padding:1px 2px 0px 0px;
+}
